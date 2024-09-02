@@ -16,7 +16,11 @@ body {
 .card {
     background-color: white;
     border-radius: 0.625rem;
+    overflow: hidden;
     width: 21.438rem;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
 }
 
 img {
@@ -45,6 +49,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .strike-through {
