@@ -29,6 +29,7 @@ h1 {
 }
 
 h2 {
+    font-family: "Fraunces", serif;
     color: #3D8168;
 }
 
@@ -40,6 +41,12 @@ p {
     padding: 1.5rem;
 }
 
+.price-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .strike-through {
     text-decoration: line-through;
 }
@@ -47,4 +54,22 @@ p {
 .tag {
     text-transform: uppercase;
     letter-spacing: 0.313rem;
+}
+
+button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    background-color: #3D8168;
+    color: white;
+    border-radius: .5rem;
+}
+
+.icon {
+    max-width: 1rem;
+    padding-right: .5rem;
+}
+
+button:hover {
+    background-color: #1A4032;
 }
