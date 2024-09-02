@@ -62,6 +62,7 @@ p {
     letter-spacing: 0.313rem;
 }
 
+
 button {
     width: 100%;
     border: none;
@@ -69,6 +70,8 @@ button {
     background-color: #3D8168;
     color: white;
     border-radius: .5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .icon {
