@@ -17,14 +17,15 @@ body {
     background-color: white;
     border-radius: 0.625rem;
     overflow: hidden;
-    width: 21.438rem;
+    width: 37.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 img {
-    width: 100%;
+    width: 50%;
+    object-fit: cover;
 }
 
 h1 {
